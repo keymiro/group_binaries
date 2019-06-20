@@ -1,9 +1,9 @@
-@extends('layouts.app')
-<link rel="icon" type="image/png" href="img/inco.png"/>
+@extends('template')
+<br>
+<br><br>
 
-<center>
-    <img  src="/img/logo.png" >
-</center>
+
+
 <title>@yield('title','Group binarios')</title>
 <link rel='stylesheet' href="{{asset('css/main.css')}}">
 @section('content')
@@ -78,5 +78,5 @@
     </div>
 </div>
     <hr>
-    @include('layouts.footer')
+
 @endsection

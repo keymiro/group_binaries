@@ -1,6 +1,4 @@
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-9">
+
 
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -34,9 +32,7 @@
         <span class="sr-only">Next</span>
     </a>
 </div>
-        </div>
-    </div>
-</div>
+
 
             <hr>
 
