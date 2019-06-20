@@ -1,0 +1,34 @@
+/* nav--*/
+.navbar-laravel {
+    background-color: darkcyan;
+}
+
+/* footer--*/
+footer
+{
+    margin-top:50px;
+    width:100%;
+    height:200px;
+    background: rgb(255, 255, 255);
+    text-align:center;
+}
+footer p
+{
+    text-align: justify;
+}
+ul.redes li
+{
+    display: inline-block;
+}
+ul.redes li a
+{
+    color:rgb(40, 173, 100);
+}
+.avatar
+{
+    border: 5px solid rgb(0, 0, 83);
+    border-radius: 50%;
+    float: left;
+    height: 100px;
+    width: 100px;
+}
