@@ -11,4 +11,8 @@ class IndexController extends Controller
     {
         return view('index');
     }
+    public function nosotros()
+    {
+        return view('nosotros');
+    }
 }
