@@ -15,6 +15,7 @@
 
 
 Route::get('/','IndexController@index' );
+Route::get('/nosotros','IndexController@nosotros' );
 Route::get('/usuarios/{id}', function ($id) {
     return  'mostrando detalle del usuario: '.$id;
 });

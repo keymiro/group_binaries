@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -22,49 +23,55 @@
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm fixed-top">
-            <div class="container">
 
+        <nav class="navbar navbar-expand-md navbar-light  shadow-sm fixed-top" style="background-color:#f4c508de;">
+            <div class="container">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-
-                    <!-- Left Side Of Navbar -->
+                   <!-- Left Side Of Navbar -->
 
                 <div class="container" >
+
+
+                            <center>
+                                <img  src="/img/logo.png" style='width:300px'>
+                            </center>
+
 
                     <div class="row justify-content-center">
                         <div class="col-md-8">
 
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item" >
+                    <ul class="navbar-nav ml-auto nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item " >
                             <a class="nav-link" href="{{ url('/') }}">
                             Inicio </a>
                         </li>
-                        <li class="nav-item ">
-                            <a class="nav-link" href="#">Nosotros</a>
+                        <li class="nav-item  ">
+                            <a class="nav-link" href="{{ url('/nosotros') }}">Nosotros</a>
                         </li>
-                        <li class="nav-item t">
+                        <li class="nav-item  ">
                             <a class="nav-link" href="#">Productos</a>
                         </li>
-                        <li class="nav-item ">
-                            <a class="nav-link" href="#">servicios</a>
+                        <li class="nav-item  ">
+                            <a class="nav-link" href="#">Servicios</a>
                         </li>
-                        <li class="nav-item t">
+                        <li class="nav-item  ">
                             <a class="nav-link" href="#">Cotizar</a>
                         </li>
-                        <li class="nav-item ">
+                        <li class="nav-item  ">
                             <a class="nav-link" href="#">Webmail</a>
                         </li>
-                        <li class="nav-item t">
+                        <li class="nav-item  ">
                             <a class="nav-link" href="#">Soporte</a>
                         </li>
-                        <li class="nav-item ">
+                        <li class="nav-item  ">
                             <a class="nav-link" href="#">Contactanos</a>
                         </li>
                         @guest
-                            <li class="nav-item">
+                            <li class="nav-item ">
                                 <a class="nav-link" href="{{ route('login') }}">{{ __('Ingresar') }}</a>
                             </li>
                             @if (Route::has('register'))

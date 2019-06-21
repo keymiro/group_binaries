@@ -11,16 +11,12 @@
 
 </head>
 <body>
-<center>
-    <img  src="/img/logo.png" >
-</center>
+
 
 
 
 
 @include('layouts.app')
-
-
 @include('layouts.footer')
 
 

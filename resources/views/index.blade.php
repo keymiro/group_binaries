@@ -8,7 +8,7 @@
             <div class="col-md-8">
 
                 <br>
-                <br><br>
+                <br><br><br><br><br>
                 @include('layouts.slider')
             </div>
         </div>
