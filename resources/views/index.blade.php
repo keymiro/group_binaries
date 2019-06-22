@@ -17,6 +17,9 @@
 <center> </center>
                     <center>
                       <button type="button" class="btn btn-outline-warning"> <a class="nav-link" href="{{ route('login') }}"><img  src="/img/inco.png" style="width: 100px"></a></button></center>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                </li>
 
             </div>
         </div>
