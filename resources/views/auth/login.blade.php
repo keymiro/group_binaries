@@ -4,7 +4,7 @@
 
 
 
-<title>@yield('title','Group binarios')</title>
+
 <link rel='stylesheet' href="{{asset('css/main.css')}}">
 @section('content')
 
