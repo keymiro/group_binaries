@@ -16,6 +16,11 @@
 
 Route::get('/','IndexController@index' );
 Route::get('/nosotros','IndexController@nosotros' );
+Route::get('/productos','IndexController@productos' );
+Route::get('/servicios','IndexController@servicios' );
+Route::get('/cotizar','IndexController@cotizar' );
+Route::get('/circuitocerrado','IndexController@circuitocerrado' );
+
 Route::get('/usuarios/{id}', function ($id) {
     return  'mostrando detalle del usuario: '.$id;
 });

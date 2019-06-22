@@ -12,21 +12,21 @@
 
             <img class="d-block w-100" src="/img/img_01.jpg" hola alt="First slide">
             <div class="carousel-caption d-none d-md-block">
-                <a href="#"> <h5><span class="badge badge-warning">MAS INFORMACION </span></h5></a>
+                <a href="#"> <h3><span class="badge badge-warning ">MAS INFORMACION </span></h3></a>
                 <p>hi</p>
             </div>
         </div>
         <div class="carousel-item">
             <img class="d-block w-100" src="/img/img_guardas.jpg"alt="Second slide">
             <div class="carousel-caption d-none d-md-block">
-                <a href="#"> <h5><span class="badge badge-warning">MAS INFORMACION </span></h5></a>
+                <a href="#"> <h3><span class="badge badge-warning">MAS INFORMACION </span></h3></a>
                 <p>hi</p>
             </div>
         </div>
         <div class="carousel-item">
             <img class="d-block w-100" src="/img/img_rastreo.jpg" alt="Third slide">
             <div class="carousel-caption d-none d-md-block">
-                <a href="#"> <h5><span class="badge badge-warning">MAS INFORMACION </span></h5></a>
+                <a href="#"> <h3><span class="badge badge-warning">MAS INFORMACION </span></h3></a>
                 <p>hi</p>
             </div>
         </div>
@@ -34,7 +34,7 @@
         <div class="carousel-item">
             <img class="d-block w-100" src="/img/img_monitoreo.jpg" alt="Four slide">
             <div class="carousel-caption d-none d-md-block">
-                <a href="#"> <h5><span class="badge badge-warning">MAS INFORMACION </span></h5></a>
+                <a href="#"> <h3><span class="badge badge-warning">MAS INFORMACION </span></h3></a>
                 <p>hi</p>
             </div>
         </div>

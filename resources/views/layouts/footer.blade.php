@@ -1,7 +1,7 @@
 <footer class="container-fluid">
     <div class="row">
         <div class="col-md-4">
-            <h4>MAS INFORMACON</h4>
+            <h4>MAS INFORMACIÓN</h4>
             <p>iusto rem beatae libero, incidunt animi nemo voluptatem dolores accusantium magni ad ipsum eum repellendus  </p>
         </div>
         <div class="col-md-4">

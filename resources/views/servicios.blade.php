@@ -1,0 +1,44 @@
+@extends('template')
+        <!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+</head>
+<body>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br><br>
+<div class="container" style="text-align: justify;">
+    <div class="row justify-content-center">
+        <div class="col-md-10">
+            <div class="container-fliud">
+                <div class="card">
+                    <div class="card-header">
+                        <center><h1>GROUP BINARIOS LTDA</h1></center>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <p>Es una Compañía Colombiana dedicada a ofrecer servicios de seguridad física armada, Seguridad electrónica de alta tecnología, posicionada en el mercado con el mayor prestigio y solidez. Operamos con personal Calificado en todas las ramas de la seguridad, Seguridad privada fija, móvil con o sin armas implementamos estrategias nuevas de la mano de equipos tecnológicos y el recurso humano. Nuestra misión consiste en proteger vidas y propiedades contra el robo, prestar servicios profesionales creativos de alta calidad en las áreas de seguridad, Respaldados por el ejercicio ético y ejemplar de la profesión, que satisfaga las necesidades de nuestros Clientes, superando expectativas; a continuación nos permitimos presentar nuestra propuesta de servicios, atendiendo su amable invitación y con el ánimo de poderles servir, entendiendo y presentado soluciones reales a la actual problemática de inseguridad que vivimos.</p>
+
+                            </div>
+                            <div class="col-sm-6">
+                                <img  src="/img/nosotros.jpg" >
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
