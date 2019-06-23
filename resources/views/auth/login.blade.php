@@ -4,7 +4,7 @@
 
 
 
-<title>@yield('title','Group binarios')</title>
+
 <link rel='stylesheet' href="{{asset('css/main.css')}}">
 @section('content')
 
@@ -12,7 +12,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('Iniciar sesion') }}</div>
+             <center> <h3><div class="card-header"><img  src="/img/inco.png" style="width: 50px">{{ __('Iniciar sesion') }}</div></h3></center>
 
                 <div class="card-body">
                     <form method="POST" action="{{ route('login') }}">

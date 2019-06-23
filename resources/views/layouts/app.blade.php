@@ -19,6 +19,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/main.css') }}" rel="stylesheet">
 
 </head>
 <body>
@@ -42,42 +43,43 @@
 
 
                     <div class="row justify-content-center">
-                        <div class="col-md-8">
+                        <div class="col-md-10">
 
                     <ul class="navbar-nav ml-auto nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item " >
-                            <a class="nav-link" href="{{ url('/') }}">
+                            <a class="nav-link " href="{{ url('/') }}">
                             Inicio </a>
                         </li>
                         <li class="nav-item  ">
                             <a class="nav-link" href="{{ url('/nosotros') }}">Nosotros</a>
                         </li>
                         <li class="nav-item  ">
-                            <a class="nav-link" href="#">Productos</a>
+                            <a class="nav-link" href="{{ url('/productos') }}">Productos</a>
                         </li>
                         <li class="nav-item  ">
-                            <a class="nav-link" href="#">Servicios</a>
+                            <a class="nav-link" href="{{ url('/servicios') }}">Servicios</a>
                         </li>
                         <li class="nav-item  ">
-                            <a class="nav-link" href="#">Cotizar</a>
+                            <a class="nav-link" href="{{ url('/cotizar') }}">Cotizar</a>
                         </li>
                         <li class="nav-item  ">
                             <a class="nav-link" href="#">Webmail</a>
                         </li>
                         <li class="nav-item  ">
-                            <a class="nav-link" href="#">Soporte</a>
+                            <a class="nav-link" href="http://soporte.groupbinarios.co/scp">Soporte</a>
                         </li>
                         <li class="nav-item  ">
                             <a class="nav-link" href="#">Contactanos</a>
                         </li>
                         @guest
-                            <li class="nav-item ">
-                                <a class="nav-link" href="{{ route('login') }}">{{ __('Ingresar') }}</a>
-                            </li>
+
+
+                            <form class="form-inline">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-primary my-2 my-sm-0" type="submit">Search</button>
+                            </form>
                             @if (Route::has('register'))
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#"></a>
-                                </li>
+
                             @endif
                         @else
                             <li class="nav-item dropdown">
@@ -96,10 +98,11 @@
                                         @csrf
                                     </form>
                                 </div>
+
                             </li>
                         @endguest
                     </ul>
-
+                        </div>
 
                         </div>
                     </div>
