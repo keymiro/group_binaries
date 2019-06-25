@@ -76,22 +76,23 @@
 
                             <form class="form-inline">
                                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                                <button class="btn btn-primary my-2 my-sm-0" type="submit">Search</button>
+                                <button class="btn btn-primary my-2 my-sm-0" type="submit">Buscar</button>
                             </form>
                             @if (Route::has('register'))
 
                             @endif
                         @else
-                            <li class="nav-item dropdown">
-                                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                    {{ Auth::user()->name }} <span class="caret"></span>
-                                </a>
+                            <div class="nav-item dropdown">
+                                <button id="dropdownMenuButton"  class="btn btn-light dropdown-toggle " style="font-size:18px" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                    <i class="fa fa-user"></i>   {{ Auth::user()->name }} </button> <span class="caret"></span>
+
 
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                                     <a class="dropdown-item" href="{{ route('logout') }}"
                                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
                                         {{ __('Logout') }}
+                                        <i class="fa fa-sign-out-alt" style="font-size:18px"></i>
                                     </a>
 
                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
@@ -99,7 +100,7 @@
                                     </form>
                                 </div>
 
-                            </li>
+                            </div>
                         @endguest
                     </ul>
                         </div>
