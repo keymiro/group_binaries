@@ -42,10 +42,9 @@
                             </center>
 
 
-                    <div class="row justify-content-center">
-                        <div class="col-md-10">
 
-                    <ul class="navbar-nav ml-auto nav-tabs" id="myTab" role="tablist">
+
+                    <ul class="navbar-nav ml-auto nav-tabs justify-content-between" id="myTab" role="tablist">
                         <li class="nav-item " >
                             <a class="nav-link " href="{{ url('/') }}">
                             Inicio </a>
