@@ -44,7 +44,7 @@
 
 
 
-                    <ul class="navbar-nav ml-auto nav-tabs justify-content-between" id="myTab" role="tablist">
+                    <ul class="navbar-nav ml-auto nav-tabs justify-content-center" id="myTab" role="tablist">
                         <li class="nav-item " >
                             <a class="nav-link " href="{{ url('/') }}">
                             Inicio </a>
