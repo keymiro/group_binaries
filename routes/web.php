@@ -21,9 +21,7 @@ Route::get('/servicios','IndexController@servicios' );
 Route::get('/cotizar','IndexController@cotizar' );
 Route::get('/circuitocerrado','IndexController@circuitocerrado' );
 
-Route::get('/usuarios/{id}', function ($id) {
-    return  'mostrando detalle del usuario: '.$id;
-});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

@@ -1,7 +1,7 @@
 
 @extends('template')
 @section('content')
-<br>
+
 <br>
 <br>
 <br>
@@ -11,9 +11,11 @@
 <div class="container" style="text-align: justify;">
     <div class="row justify-content-center">
         <div class="col-md-10">
-            <center><h3>NUESTROS PRODUCTOS</h3></center><HR>
+            <div class="card-header">
+            <center><h3>NUESTROS PRODUCTOS</h3></center>
+            </div>
 
-
+            <HR>
 <!---producto numero 1-->
 
             <div class="row">
@@ -300,7 +302,7 @@
             </div>
 
 
-
+            <HR>
             <!-- producto numero 5-->
 
 
@@ -370,7 +372,7 @@
                 </div>
             </div>
 
-
+            <HR>
             <!-- producto numero 6-->
 
 
@@ -440,7 +442,7 @@
                 </div>
             </div>
 
-
+            <HR>
             <!-- producto numero 7-->
 
 
