@@ -1,7 +1,7 @@
 
 @extends('template')
 @section('content')
-<br>
+
 <br>
 <br>
 <br>
