@@ -19,9 +19,21 @@ Route::get('/nosotros','IndexController@nosotros' );
 Route::get('/productos','IndexController@productos' );
 Route::get('/servicios','IndexController@servicios' );
 Route::get('/cotizar','IndexController@cotizar' );
-Route::get('/circuitocerrado','IndexController@circuitocerrado' );
+Route::get('/contact-us', 'ContactUsController@contactUs');
 
 
+Route::post('contact-us',[
+
+
+    'as'=>'contactUs',
+
+
+    'uses'=>'ContactUsController@contactUsPost'
+
+
+]);
+
+/*--login--*/
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

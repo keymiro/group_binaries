@@ -1,23 +1,31 @@
 /* fondo--*/
+
+/*letras--*/
+
 body {
     font-size: 18px;
     /*background: white;--*/
     font-family: 'Raleway', sans-serif;
 
 
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,dddeff+40,9dacc6+100 */
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,dddeff+40,c1c1ca+100 */
     background: rgb(255,255,255); /* Old browsers */
-    background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(221,222,255,1) 40%, rgba(157,172,198,1) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(221,222,255,1) 40%,rgba(157,172,198,1) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(221,222,255,1) 40%,rgba(157,172,198,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#9dacc6',GradientType=0 ); /* IE6-9 */
+    background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(221,222,255,1) 40%, rgba(193,193,202,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(221,222,255,1) 40%,rgba(193,193,202,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(221,222,255,1) 40%,rgba(193,193,202,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#c1c1ca',GradientType=0 ); /* IE6-9 */
 
 
 }
 /* footer--*/
+
+.h4, h4 {
+    font-size: 8px;
+}
 footer
 {
-    font-size: 15px;
+
+    font-size: 7px;
     background: rgb(38, 37, 115);
     text-align:center;
     color: #ffffff;
@@ -25,14 +33,19 @@ footer
 footer p
 {
     text-align: justify;
+
+}
+letralink{
+    color: #ffffff;
 }
 ul.redes li
 {
+    text-align: justify;
     display: inline-block;
 }
 ul.redes li a
 {
-    color: #f1c823;
+    color: #3490dc;
 }
 .avatar
 {
@@ -54,7 +67,7 @@ ul.redes li a
     border-bottom: 1px solid rgba(0,0,0,.125);}
 /*botones--*/
 .btn-primary {
-    color: #fff;
+    color: #FFFFFF !important;
     background-color: #000065;
     border-color: #000055;
 }
@@ -63,7 +76,8 @@ ul.redes li a
     color: #000051;
     background-color: #f8cc1ca1;
 }
-/*letras--*/
 a {
-    color: #f5cd28;
+    color: #FFFFFF;
+
 }
+

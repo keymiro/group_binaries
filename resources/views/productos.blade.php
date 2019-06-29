@@ -3,20 +3,22 @@
 @section('content')
 
 
-<br>
+
 <br>
 <br>
 
 <div class="container" style="text-align: justify;">
     <div class="row justify-content-center">
         <div class="col-md-10">
+            <div class="card">
             <div class="card-header">
             <center><h3>NUESTROS PRODUCTOS</h3></center>
             </div>
 
-            <HR>
+
 <!---producto numero 1-->
 
+            <div class="card-body">
             <div class="row">
                 <div class="col-sm-6">
             <div class="container">
@@ -513,6 +515,8 @@
 
 
 
+            </div>
+            </div>
 
         </div>
 </div>

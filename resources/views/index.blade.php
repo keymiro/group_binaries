@@ -9,22 +9,19 @@
 
                 <br>
                 <br>
-                <hr>
+
                 <div class="card-header">
                 <center><h3>GROUP BINARIOS LTDA</h3></center>
                 </div>
-                <hr>
-                <center>
-                <div class=" col-md-10">
+                <br>
+
                 @include('layouts.slider')
-                </div></center>
+
 
 
                     <center>
-                      <button type="button" class="btn btn-outline-warning"> <a class="nav-link" href="{{ route('login') }}"><img  src="/img/inco.png" style="width: 100px"></a></button></center>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
-                </li>
+                      <button type="button" class="btn btn-primary"> <a class="nav-link" href="{{ route('login') }}">INGRESAR</a></button></center>
+
 
             </div>
         </div>

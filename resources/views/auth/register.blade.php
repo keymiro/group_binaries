@@ -1,8 +1,5 @@
 @extends('template')
 <br>
-<br>
-<br>
-<br>
 <br><br>
 @section('content')
 <div class="container">
@@ -78,4 +75,5 @@
         </div>
     </div>
 </div>
+<br>
 @endsection
