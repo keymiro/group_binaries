@@ -25,8 +25,10 @@
 <body>
     <div id="app">
 
-        <nav class="navbar navbar-expand-md navbar-light  shadow-sm fixed-top" style="background-color:#f4c508de;">
+        <nav class="navbar navbar-expand-lg  navbar-light  shadow-sm fixed-top" style="background-color: #c1c1ca;">
+            <a class="navbar-brand" href="{{ url('/') }}"> <img  src="/img/logo.png" style='width:250px';></a>
             <div class="container">
+
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -34,17 +36,9 @@
 
                    <!-- Left Side Of Navbar -->
 
-                <div class="container" >
 
 
-                            <center>
-                                <img  src="/img/logo.png" style='width:300px'>
-                            </center>
-
-
-
-
-                    <ul class="navbar-nav ml-auto nav-tabs justify-content-center" id="myTab" role="tablist">
+                    <ul class="navbar-nav mr-auto nav-tabs  nav justify-content-end" id="navbarSupportedContent" >
                         <li class="nav-item " >
                             <a class="nav-link  " href="{{ url('/') }}">
                             Inicio </a>
@@ -74,8 +68,8 @@
 
 
                             <form class="form-inline">
-                                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                                <button class="btn btn-primary my-2 my-sm-0" type="submit">Buscar</button>
+                                <input class="form-control mr-sm-10" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-primary my-10 my-sm-10" type="submit">Buscar</button>
                             </form>
                             @if (Route::has('register'))
 
@@ -99,21 +93,23 @@
                                     </form>
                                 </div>
 
+
+
                             </div>
                         @endguest
                     </ul>
+
                         </div>
 
                         </div>
                     </div>
-                </div>
 
 
                 <!-- Right Side Of Navbar -->
-                    <ul class="navbar-nav ml-auto">
+
                         <!-- Authentication Links -->
 
-                    </ul>
+
                 </div>
             </div>
         </nav>
@@ -121,6 +117,7 @@
         <main class="py-4">
             @yield('content')
         </main>
+    </div>
     </div>
 </body>
 </html>

@@ -8,13 +8,16 @@
             <div class="col-md-10">
 
                 <br>
-                <br><br><br>
+                <br>
                 <hr>
                 <div class="card-header">
                 <center><h3>GROUP BINARIOS LTDA</h3></center>
                 </div>
                 <hr>
+                <center>
+                <div class=" col-md-10">
                 @include('layouts.slider')
+                </div></center>
 
 
                     <center>

@@ -2,8 +2,7 @@
 @section('content')
 
 
-<br>
-<br>
+
 <br>
 <br><br>
 <div class="container" style="text-align: justify;">
